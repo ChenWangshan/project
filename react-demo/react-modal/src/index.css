@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+body.has-tdt-top.map-visual{
+  padding: 0;
+}
+
+body.map-visual .tdt-common-bar{
+  display: none;
+}
+
+
+ul, li{
+  list-style: none;
+}

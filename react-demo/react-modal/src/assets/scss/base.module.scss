@@ -1,0 +1,31 @@
+/** 容器内的元素，上下垂直居中 **/
+.centerAlign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verticalAlign{
+    display: flex;
+    align-items: center;
+}
+
+/** 按钮基础样式 **/
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    border-radius: 2px;
+    background-color: #6A7485;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.btn:hover{
+    background-color: #A0A7B4;
+    color: #ffffff;
+}
